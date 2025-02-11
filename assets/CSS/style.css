@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Didot', 'serif';
+}
+
+body {
+    background-color: #161A30;
+    text-align: left;
+    justify-content: center;
+    color: white;
+}
+
+.body label{
+    color: white;
+}
+
+.body-container{
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    padding: 500px;
+}
+
+header {
+    background: linear-gradient(#161A30, #535C91);  
+    color: white;
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #535C91;
+    padding: 15px;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav .btn-add-film {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #b0b0d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav .btn-add-reviews {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #b0b0d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav .btn-add-jadwal {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #b0b0d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav .btn-home {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #b0b0d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.film-card h3 {
+    text-decoration-line: underline;
+    text-shadow: 2px 1px 5px #000000;
+  }
+
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+button {
+    background-color: #161A30;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+label{
+    color: black;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+.film-card {
+    width: 200px;
+    background-color: #b0b0d7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow:  5px 15px 20px rgba(0, 0, 0, 0.8);
+}
+
+.film-card img {
+    aspect-ratio: 3 / 4;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.film-card p {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: #535C91;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14203b;
+    padding: 10px 0;
+}
+
+
+.menu-right {
+    display: flex;
+    align-items: right;
+    gap: 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: left;
+    gap: 15px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+.footer a{
+    color: white;
+}
+
+.btn-menu {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-menu:hover {
+    background-color: #555;
+}
+
+.login-icon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30%;
+    transition: 0.3s;
+}
+
+.login-icon hover{
+    opacity: 0.7;
+}
+
